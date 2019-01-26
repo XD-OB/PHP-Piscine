@@ -1,0 +1,113 @@
+body {
+    font-size: .9em;
+    color: white;
+    margin: 0;
+    background: url("https://upload.wikimedia.org/wikipedia/fr/2/25/SNCF_G%26C_2017.jpg") no-repeat center fixed;
+    background-size: 1000px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+div.dropdown {
+    display: flex;
+}
+
+div.option {
+    border-bottom: 5px dotted #D42541;
+    margin-bottom: 5px;
+}
+
+div.case1, div.case2, div.case3, div.case4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #B7276A;
+    width: 33%;
+    height: 50px;
+    font: 2em monospace;
+    text-align: center;
+    border: 15px solid #D42541;
+    line-height: 50px;
+}
+
+div.case12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #B7276A;
+    height: 50px;
+    font-size: 1.6vmin;
+    text-align: center;
+    margin-left: -40px;
+    border-bottom: 5px dotted #D42541;
+    text-align: left;
+    margin-left: 2px;
+}
+
+ul#ul1, ul#ul2, ul#ul3, ul#ul4, ul#ul12 {
+    text-align: left;
+    font-size: 1.6vmin;
+    margin-top: 30px;
+    background-color: #B7276A;
+    visibility: hidden;
+    width: 60%;
+    margin: 0;
+    border: 5px solid #D42541;
+}
+
+ul#ul1 {
+    position: relative;
+}
+
+ul#ul12 {
+    margin-top: -50px;
+    position: absolute;
+    left: 100%;
+    width: 120%;
+}
+
+input[id=box1]:hover ~ ul#ul1, ul#ul1:hover {
+    visibility: visible;
+}
+
+input[id=box1]:hover ~ label[for="box1"] {
+    background-color: #7F2C6D;
+}
+
+input[id=box2]:hover ~ ul#ul2, ul#ul2:hover  {
+    visibility: visible;
+}
+
+input[id=box2]:hover ~ label[for="box2"] {
+    background-color: #7F2C6D;
+}
+
+input[id=box3]:hover ~ ul#ul3, ul#ul3:hover  {
+    visibility: visible;
+}
+
+input[id=box3]:hover ~ label[for="box3"] {
+    background-color: #7F2C6D;
+}
+
+input[id=box4]:hover ~ ul#ul4, ul#ul4:hover  {
+    visibility: visible;
+}
+
+input[id=box4]:hover ~ label[for="box4"] {
+    background-color: #7F2C6D;
+}
+
+input[id=box12]:hover ~ ul#ul12, ul#ul12:hover  {
+    visibility: visible;
+}
+
+input[id=box12]:hover ~ label[for="box12"] {
+    background-color: #7F2C6D;
+}
+
+input[id=box2]:hover ~ div.case12>ul#ul12 {
+    visibility: hidden;
+}

@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: snow;
+}
+
+div.title {
+    background-color: midnightblue;
+    color: white;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+table {
+    width: 90%;
+    height: 50em;
+    margin: 10% 5%;
+}
+
+td {
+    text-align: center;
+    border:0.01rem solid black;
+}
+
+p {
+    font-size: 0.6rem;
+    padding: 0;
+}
+
+h3 {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.num {
+    margin: 2%;
+    text-align: left;
+}
+
+.poids {
+    margin: 2%;
+    text-align: right;
+}
+
+#empty {
+    border: none;
+}
+
+#bggreen {
+    background-color: lightgreen;
+}
+
+#bgaqua {
+    background-color: aqua;
+    color: red;
+}
+
+    #lanthanides {
+    background-color: pink;
+    }
+
+#actinides {
+    background-color: palevioletred;
+}
+
+#red {
+    background-color: indianred;
+}
+            
+#bgorange {
+    background-color: orange;
+}
+            
+#bgyellow {
+    background-color: yellow;
+}
+
+#bggrey {
+    background-color: darkgray;
+}
+            
+#bgblue {
+    background-color: cadetblue;
+}
+    
+#bgpink {
+    background-color: papayawhip;
+}
+#bgwhite {
+    background-color: white;
+}
+
+@media screen and (max-width: 1900px) {
+    body {
+        font-size: 18px
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 6px;
+    }
+}

@@ -1,0 +1,17 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles 3-D Vertices.
+
+IN addition to Space coordinates x, y and z the class possess a homogeneous coordinates w
+and a color from the class Color.
+
+An instance can be constructed from three values x, y, z ( w and color are optionals):
+new Vertex( array('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 3.0, 'color' => $green) );
+
+If homogeneous coordinates w AND/OR color are omitted:
+w by default is worth  1.0
+color by default is worth a new instance of the color white
+
+Attributes are private you may use accessors.
+No method is provided for this class.
+---------------------------------------------------------------------- Vertex ->

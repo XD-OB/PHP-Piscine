@@ -1,0 +1,26 @@
+
+<- Matrix ----------------------------------------------------------------------------------------------------------
+The Matrix class handles 4x4 Matrices.
+
+Class constants for preset : IDENTITY, SCALE, RX, RY, RZ,
+TRANSLATION and PROJECTION.
+
+An instance is constructed providing the following arguments:
+(Depends on the value of the preset argument)
+
+'preset'	: The value must be one of the Class constants previously defined.
+IDENTITY	-> nothing
+SCALE		-> the scale factor
+RX			-> the rotation angle in radians
+RY			-> the rotation angle in radians
+RZ			-> the rotation angle in radians
+TRANSLATION	-> translation vector
+PROJECTION	-> field of view (in degrees), image ratio (width/heigth), near and far clipping plane (z distances)
+
+Once a matrix is instantiated, its status is final (no setters).
+
+The class provides the following methods :
+
+Matrix mult( Matrix $rhs ) : returns the multiplication of both matrices (the current instance and the argument).
+Vertex transformVertex( Vertex $vtx ) : returns a new vertex resulting from the transformation of the vertex (sent as argument)by the matrix.
+---------------------------------------------------------------------------------------------------------- Matrix ->
