@@ -1,26 +1,21 @@
+# 42pool PHP
 🎉Piscine PHP		          101 🎉
 
-✅Day00	    125
+- Day 0:    125 ✅
+- Day 1:    100 ✅
+- Day 2:    105 ✅
+- Day 3:    100 ✅
+- Day 4:     60 ✅
+- Day 5:     90 ✅
+- Day 6:     40 ❌
+- Day 7:    100 ✅
+- Day 8:  empty ❌
+- Day 9:    100 ✅
+- Rush 0: empty ❌
+- Rush 1: unregistred ❌
 
-✅Day01	    100
+## Result
+**Piscine PHP		          101 ✅ 🎉**
 
-✅Day02	    105
-
-✅Day03	    100
-
-✅Day04    	60
-
-✅Day05	    90
-
-❌Day06	    40
-
-✅Day07	    100
-
-❌Day08	    not_done
-
-✅Day09	    100
-
-
-❌Rush00	      not_done
-
-❌Rush01	      Unregistred
+# Owner
+- Oussama Belouche 1337
